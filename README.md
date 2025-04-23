@@ -1,5 +1,5 @@
 # Ex02 Django ORM Web Application
-## Date: 
+## Date: 12.04.2025
 
 ## AIM
 To develop a Django application to store and retrieve data from a Movies Database using Object Relational Mapping(ORM).
@@ -23,6 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
@@ -39,7 +40,7 @@ class Employee (models.Model):
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('eid','name','salary','age','email')
 
-
+```
 
 ## OUTPUT
 
